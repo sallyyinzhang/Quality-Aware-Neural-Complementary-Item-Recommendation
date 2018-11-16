@@ -12,8 +12,12 @@ organization={ACM}
 
 
 ## Model Traing
+Dataset is from 
+McAuley, Julian, et al. "Image-based recommendations on styles and substitutes." Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval. ACM, 2015.
+
+First get the product image, textual and rating information and store them in .pickle. Format please see the code.
+
 A quick way to use the model is:
 ``` 
 python CompleRec.py
 ```
-
