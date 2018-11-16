@@ -11,7 +11,7 @@ organization={ACM}
 }
 
 
-##Model Traing
+## Model Traing
 A quick way to use the model is:
 ``` 
 python CompleRec.py
