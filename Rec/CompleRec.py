@@ -95,7 +95,7 @@ def main():
         #sess = tf.InteractiveSession()
         tf.global_variables_initializer().run()
 
-        if trainchoice == "Yes":  #five cross to train data
+        if trainchoice == "Yes":  #five cross validation to train data
             print("train")
             kf = KFold(n_splits=5)
             
